@@ -69,8 +69,8 @@ try:
     print(f"✅ Test Loader Ready. Found {len(test_dataset)} samples.")
 
 except Exception as e:
-    print(f"\n❌ 错误: 加载测试集失败。请检查 /test/ 路径是否存在。")
-    print(f"详情: {e}\n")
+    print(f"\n❌ error")
+    print(f"detail: {e}\n")
     exit()
 
 log_dir = os.path.join(basedir, "jCISR")
